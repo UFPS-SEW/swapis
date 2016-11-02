@@ -22,7 +22,6 @@
   }
   class EnlacesDeInteres {
     function __construct() {
-
     }
     function obtenerEnlaces() {
       $_cadena = array();
@@ -51,7 +50,6 @@
   }
   class EnlacesFooter {
     function __construct() {
-
     }
     function obtenerEnlaces() {
       $_cadena = array();
@@ -80,7 +78,6 @@
   }
   class textoFooter {
     function __construct() {
-
     }
     function obtenerTexto() {
       $_mbd = new conexion("ingsistemas");
@@ -159,7 +156,6 @@
   }
   class Actividades {
     function __construct() {
-
     }
     function obtenerActividades($semana) {
       if ($semana == 0) {
